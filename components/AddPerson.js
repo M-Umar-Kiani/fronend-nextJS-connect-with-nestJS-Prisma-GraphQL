@@ -16,6 +16,7 @@ export default function AddPerson() {
         addPerson({ variables: { args:{username, email} } });
         setUsername('');
         setEmail('');
+        alert("Add Person Successfully")
       };
 
 

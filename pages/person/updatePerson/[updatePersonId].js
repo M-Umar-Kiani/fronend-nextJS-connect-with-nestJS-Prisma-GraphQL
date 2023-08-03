@@ -36,6 +36,7 @@ export default function updatePersonId() {
     updatePerson({ variables: { args: parseInt(updatePersonId), updatePersonArgs: { username, email } }, });
     setUsername('');
     setEmail('');
+    alert("update person successfully")
   };
 
 
